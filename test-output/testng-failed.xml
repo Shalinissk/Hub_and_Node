@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="Testff(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="googleDemo.DemoB">
+        <methods>
+          <include name="DemoGoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- googleDemo.DemoB -->
+    </classes>
+  </test> <!-- Testff(failed) -->
+</suite> <!-- Failed suite [Suite] -->

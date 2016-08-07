@@ -1,0 +1,8 @@
+<suite name="Suite" parallel="tests">
+  <test name="Testff">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="googleDemo.DemoB"/>
+      </classes>
+  </test>
+</suite>
