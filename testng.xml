@@ -1,8 +1,16 @@
 <suite name="Suite" parallel="tests">
   <test name="Testff">
   <parameter name="browser" value="firefox"/>
+  <parameter name="url" value ="http://10.10.4.61:4444/wd/hub"/>
     <classes>
       <class name="googleDemo.DemoB"/>
-      </classes>
-  </test>
-</suite>
+    </classes>
+    </test>
+    <test name="Testgc">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value ="http://10.10.4.61:4444/wd/hub"/>
+    <classes>
+      <class name="googleDemo.DemoB"/>
+    </classes>
+    </test>
+  </suite> 

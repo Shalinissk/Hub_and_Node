@@ -29,6 +29,6 @@ public class GoogleDemo
 	 System.setProperty("webdriver.chrome.driver", "D:/RS1/cd.exe/");
 	 driver = new ChromeDriver();
 	 driver.get("http://www.google.com/");
-	 driver.close();
+//	 driver.close();
  }
 }

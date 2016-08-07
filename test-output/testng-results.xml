@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24502" started-at="2016-08-07T10:49:52Z" finished-at="2016-08-07T10:50:16Z">
+  <suite name="Suite" duration-ms="16943" started-at="2016-08-07T11:14:15Z" finished-at="2016-08-07T11:14:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24502" started-at="2016-08-07T10:49:52Z" finished-at="2016-08-07T10:50:16Z">
-      <class name="googleDemo.GoogleDemo">
-        <test-method status="PASS" signature="DemoGoogle()[pri:0, instance:googleDemo.GoogleDemo@6ea12c19]" name="DemoGoogle" duration-ms="24465" started-at="2016-08-07T16:19:52Z" finished-at="2016-08-07T16:20:16Z">
+    <test name="Testgc" duration-ms="14070" started-at="2016-08-07T11:14:15Z" finished-at="2016-08-07T11:14:29Z">
+      <class name="googleDemo.DemoB">
+        <test-method status="PASS" signature="DemoGoogle(org.testng.xml.XmlTest)[pri:0, instance:googleDemo.DemoB@27efef64]" name="DemoGoogle" duration-ms="14045" started-at="2016-08-07T16:44:15Z" finished-at="2016-08-07T16:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Testgc" verbose:1[parameters:browser=>chromeurl=>http://10.10.4.61:4444/wd/hub][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=googleDemo.DemoB]  packages:] ]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
           </reporter-output>
         </test-method> <!-- DemoGoogle -->
-      </class> <!-- googleDemo.GoogleDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- googleDemo.DemoB -->
+    </test> <!-- Testgc -->
+    <test name="Testff" duration-ms="16943" started-at="2016-08-07T11:14:15Z" finished-at="2016-08-07T11:14:32Z">
+      <class name="googleDemo.DemoB">
+        <test-method status="PASS" signature="DemoGoogle(org.testng.xml.XmlTest)[pri:0, instance:googleDemo.DemoB@cc285f4]" name="DemoGoogle" duration-ms="16919" started-at="2016-08-07T16:44:15Z" finished-at="2016-08-07T16:44:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Testff" verbose:1[parameters:browser=>firefoxurl=>http://10.10.4.61:4444/wd/hub][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=googleDemo.DemoB]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DemoGoogle -->
+      </class> <!-- googleDemo.DemoB -->
+    </test> <!-- Testff -->
+  </suite> <!-- Suite -->
 </testng-results>
