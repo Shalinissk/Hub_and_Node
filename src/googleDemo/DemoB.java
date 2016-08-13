@@ -24,17 +24,17 @@ public class DemoB {
 		 ExtentTest t1 = e.startTest("DemoGoogle");
 		 t1.log(LogStatus.PASS, "Pass");
 		 e.endTest(t1);
-//		 String browser = r.getParameter("browser");
-//		 String url=r.getParameter("url");
-//		 Reporter.log(browser, true);
-//		 URL rd = new URL(url);
-//		 DesiredCapabilities c = new DesiredCapabilities();
-//		 c.setBrowserName(browser);
-//		 WebDriver driver = new RemoteWebDriver(rd, c);
-////		 System.setProperty("webdriver.chrome.driver", "D:/RS1/cd.exe/");
-////		 driver = new ChromeDriver();
-//		 driver.get("http://www.google.com/");
-//		 driver.close();
+		 String browser = r.getParameter("browser");
+		 String url=r.getParameter("url");
+		 Reporter.log(browser, true);
+		 URL rd = new URL(url);
+		 DesiredCapabilities c = new DesiredCapabilities();
+		 c.setBrowserName(browser);
+		 WebDriver driver = new RemoteWebDriver(rd, c);
+//		 System.setProperty("webdriver.chrome.driver", "D:/RS1/cd.exe/");
+//		 driver = new ChromeDriver();
+		 driver.get("http://www.google.com/");
+		 driver.close();
 	 }
 	 
 	 @Test
@@ -44,16 +44,16 @@ public class DemoB {
 		 t2.log(LogStatus.FAIL, "Fail");
 		 e.endTest(t2);
 		 e.flush();
-//		 String browser = r.getParameter("browser");
-//		 String url=r.getParameter("url");
-//		 Reporter.log(browser, true);
-//		 URL rd = new URL(url);
-//		 DesiredCapabilities c = new DesiredCapabilities();
-//		 c.setBrowserName(browser);
-//		 WebDriver driver = new RemoteWebDriver(rd, c);
-////		 System.setProperty("webdriver.chrome.driver", "D:/RS1/cd.exe/");
-////		 driver = new ChromeDriver();
-//		 driver.get("http://www.google.com/");
-//		 driver.close();
+		 String browser = r.getParameter("browser");
+		 String url=r.getParameter("url");
+		 Reporter.log(browser, true);
+		 URL rd = new URL(url);
+		 DesiredCapabilities c = new DesiredCapabilities();
+		 c.setBrowserName(browser);
+		 WebDriver driver = new RemoteWebDriver(rd, c);
+//		 System.setProperty("webdriver.chrome.driver", "D:/RS1/cd.exe/");
+//		 driver = new ChromeDriver();
+		 driver.get("http://www.google.com/");
+		 driver.close();
 	 }
 	}
